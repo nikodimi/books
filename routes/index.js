@@ -6,7 +6,7 @@ const userValidationRules = require('../validation/user');
 
 /* GET / */
 router.get('/', (req, res, next) => {
-	res.send({ success: true, data: { msg: 'oh, hi' }});
+	res.send({ success: true, data: { msg: 'Look ma, i deployed my app' }});
 });
 
 router.use('/authors', require('./authors'));
